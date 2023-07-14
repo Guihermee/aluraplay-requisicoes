@@ -26,7 +26,7 @@
 1. ```
    npm install -g json-server
    // ou
-   npm install -g json-server
+   npx install json-server
    ```
 
 ## Screenshots
