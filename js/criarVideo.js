@@ -21,7 +21,7 @@ async function criarVideo(evento) {
         alert(error)
     }
 }
-}
+
 
 // Quando usuário clicar "submit" é ativado nossa função criarVideo enviando os dados do evento
 formulario.addEventListener("submit", evento => criarVideo(evento))
