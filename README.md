@@ -14,6 +14,23 @@
 * HTML
 * CSS
 
+## Rodar os códigos abaixo para poder usar:
+1. ```
+   npm init
+   ```
+2. ```
+   json-server --watch db.json
+   ```
+
+### Caso não tiver json-server baixado rodar:
+1. ```
+   npm install -g json-server
+   
+  // OU
+  
+  npx install  json-server
+   ```
+
 ## Screenshots
 ![Screenshot da tela inicial do AluraPlay](https://imgur.com/aymxEsh.png)
 ![Screenshot da tela do formulário do AluraPlay](https://imgur.com/ShNADf2.png)
