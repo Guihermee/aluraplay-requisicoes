@@ -13,9 +13,14 @@ async function criarVideo(evento) {
     const titulo = document.querySelector("[data-titulo]").value;
     const descricao = Math.floor(Math.random() * 10).toString();
 
-    // Usando a função do outro arquivo (requisição POST)
-    await conectaApi.criaVideo(titulo, descricao, url, imagem);
-    window.location.href = "../pages/envio-concluido.html";
+    try {
+        // Usando a função do outro arquivo (requisição POST)
+        await conectaApi.criaVideo(titulo, descricao, url, imagem);
+        window.location.href = "../pages/envio-concluido.html";
+    } catch (error) {
+        alert(error)
+    }
+}
 }
 
 // Quando usuário clicar "submit" é ativado nossa função criarVideo enviando os dados do evento
