@@ -25,10 +25,8 @@
 ### Caso não tiver json-server baixado rodar:
 1. ```
    npm install -g json-server
-   
-  // OU
-  
-  npx install  json-server
+   // ou
+   npm install -g json-server
    ```
 
 ## Screenshots
